@@ -1,0 +1,8 @@
+node_modules/
+# Every variant, not just .env: a backup like .env.bk is the same secret and
+# was one `git add -A` away from being committed.
+.env
+.env.*
+!.env.example
+*.log
+.controller.json
